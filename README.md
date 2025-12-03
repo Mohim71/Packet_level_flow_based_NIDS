@@ -1,11 +1,4 @@
 
-Flow Reconstruction Using Payload-Byte
-
-This repository contains an extended version of the Payload-Byte labeling pipeline, modified to additionally reconstruct flows and packet-level ordering from PCAP files.
-The aim of this project is to take raw network traffic, generate packet-level labels, and enrich them with metadata required for downstream flow-based analysis.
-
-
-README.md
 Flow Reconstruction Extension for Payload-Byte
 
 This repository extends the original Payload-Byte pipeline by adding flow reconstruction and packet ordering to the packet-level labeled dataset generated from raw PCAP files.
@@ -43,7 +36,6 @@ Project Layout
 └── README.md
 
 
-(Rename folders according to your final structure.)
 
 Setup
 1. Install Dependencies
